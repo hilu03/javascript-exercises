@@ -2,9 +2,6 @@ const repeatString = function(word, num) {
   if (num < 0) {
     return "ERROR";
   }
-  else if (word == "") {
-    return "";
-  }
   let result = "";
   for (let i=0; i<num; i++) {
     result += word;
